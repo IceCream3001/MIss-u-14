@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-  text = `Para Geral:\n\nNo pasó de golpe,\npasó quedándome.\n\nEn tus palabras, en tus silencios\ny en esa forma tan tuya de hacerme sentir en casa.\nSe que podremos tener dificultades y los tiempos no siempre seràn buenos,\npero yo te elijo todos los días,\nsin apurarnos,\ncon calma y con verdad.\n\nMe concederias el privilegio\nDe ser mi valentìn?\n\nDi que si o lloro...Plis\n\nGracias por llegar a mi vida\ny quedarse.\n\nCon cariño,\nTu pndjo ❤️`;  } else {
+  text = `Para Princesita Bonita:\n\nNo pasó de golpe,\npasó quedándome.\n\nEn tus palabras, en tus silencios\ny en esa forma tan tuya de hacerme sentir en casa.\nSe que podremos tener dificultades y los tiempos no siempre seràn buenos,\npero yo te elijo todos los días,\nsin apurarnos,\ncon calma y con verdad.\n\nMe concederias el privilegio\nDe ser mi valentìn?\n\nDi que si o lloro...Plis\n\nGracias por llegar a mi vida\ny quedarse.\n\nCon cariño,\nTu pndjo ❤️`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
